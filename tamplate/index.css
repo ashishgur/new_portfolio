@@ -1,0 +1,782 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@200;300&family=Single+Day&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Delicious+Handrawn&family=Kanit:wght@300;500&family=Orbitron:wght@500&family=Pacifico&family=Poppins:wght@200;300&family=Roboto+Mono:wght@300;400&family=Single+Day&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Delicious+Handrawn&family=Kanit:wght@100;200&family=Orbitron:wght@500&family=Pacifico&family=Poppins:wght@200;300&family=Roboto+Mono:wght@300;400&family=Single+Day&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Delicious+Handrawn&family=Kanit:wght@100;200&family=Nunito+Sans&family=Orbitron:wght@500&family=Pacifico&family=Poppins:wght@200;300&family=Roboto+Mono:wght@300;400&family=Single+Day&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: rgba(25, 2, 71, 0.5); */
+    background: transparent;
+}
+/* intro design */
+
+#top{
+    background-color: rgb(24, 24, 41);
+    width: 100%;
+    margin: auto;
+}
+#container_one {
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+    content: "";
+  display: table;
+  clear: both;
+}
+#top .about_btn button{
+    color: white;
+    background-color: rgb(113, 233, 113);
+    padding: 20px 30px;
+    border-radius: 40px;
+    margin-top: 15px;
+    font-family:'Kanit', sans-serif ;
+}
+
+.intro {
+    /* margin: 222px 120px; */
+    margin-left: 150px;
+    margin-top: 243px;
+    height: 120px;
+    width: 40%;
+    float: left;
+    transition: 0.8s;
+
+}
+.intro .my_name{
+    animation-name: example;
+    animation-duration: 8s;
+}
+
+
+.intro h2 {
+    padding-left: 65px;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
+.intro h2 span {
+    font-style: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(227, 158, 30);
+    
+}
+@keyframes example {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+.image{
+    margin: 180px 50px;
+    width: 40%;
+    float: left;
+}
+.image img{
+    border: 1px solid whitesmoke;
+    height: 80vh;
+    margin-right: 25px;
+    width: 100%;
+    border-radius: 20px;
+
+    /* border: 5px solid rgb(219, 12, 181) ; */
+}
+
+/* menubar design */
+.menubar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 80px;
+}
+header ul{
+   float: right;
+    padding-top: 10px;
+    display: flex;
+    /* position: sticky; */
+    text-align: center;
+    align-items: center;
+    margin-right: 200px;
+}
+#top header{
+    width: 100%;
+    /* height: 150px; */
+    justify-content: center;
+    /* background-color: rgb(19, 19, 54); */
+    position:fixed;
+    z-index: 1000;
+}
+header ul li{
+    padding: 10px;
+    list-style: none;
+    margin: 10px;
+    margin-top: 20px;
+    transition: 0.6s;
+    
+}
+header ul li a{
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 100px;
+    position: relative;
+    letter-spacing: 0.5px;
+    /* padding: 0 10px; */
+    
+}
+header ul li a:hover{
+    color:rgb(125, 9, 9);
+}
+header.sticky{
+    height: 70px; 
+    background-color: black; 
+    
+
+}
+header.sticky ul li a{
+    color: rgb(12, 12, 12);
+    transition: 0.4s;
+    padding: 0px 7px;
+}
+header.sticky ul li{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+    border-radius: 25px;
+}
+
+
+.intro .icon {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 180px;
+    height: 45px;
+    margin-left: 0px;
+    margin-top: 15px;
+
+}
+.intro .icon a{
+    color: white;
+    font-size:20px ;
+    padding: 15px;
+    box-shadow:0 0 20px 10px rgba(0,0,0,0.05) ;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.icon a:hover{
+    background-color: #8df2bc;
+    color: black;
+    font-size: 22px;
+    
+
+}
+
+/* About sectimon */
+#about{
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+
+}
+#about #heading{
+    position: relative;
+    left: 125px;
+    top: 130px;
+    box-sizing: border-box;
+    margin-right:130px;
+    
+    
+
+
+}
+#about #heading h3{
+    color:rgb(181, 179, 179);
+    font-family:'Kanit', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    text-decoration:0.2px line-through;
+
+}
+#about_cont {
+    width: 70%;
+    margin: auto;
+}
+#about .more_about{
+    
+    padding-top: 25px;
+    width: 65%;
+    box-sizing: border-box;
+    float: left; 
+    height: 60vh;
+    padding-right: 20px;
+    border-right: 2px solid whitesmoke;
+
+}
+#about .more_intro{
+    margin-top: 155px;
+    box-sizing: border-box;
+    width: 35%;
+    float: right;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 28px; 
+    padding: 25px 52px;
+}
+
+#about{
+    content: "";
+  display: table;
+  clear: both;
+}
+#about .more_about {
+margin-top: 150px;
+}
+#about h3{
+    
+    font-family:'Kanit', sans-serif;
+    font-size: 40px;
+    /* border: 2px solid blue; */
+    color: rgb(172, 29, 29);
+    padding-left: 12px;
+}
+#about p{
+    padding-left: 10px;
+    margin-top: 18px;
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+#about ul li{
+    list-style: none;
+    text-shadow: #e01d1d;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+
+/* Resume section */
+#top #Resume{
+    width: 100%;
+    height: 100vh;
+    
+    margin-top: 130px;
+}
+#Resume #resume_distr{
+    width: 70%;
+    margin: auto;
+}
+#Resume #heading{
+    position: relative;
+    left: 125px;
+    top: 110px;
+    box-sizing: border-box;
+    margin-right:130px;
+
+}
+#Resume #heading h3{
+    color:rgb(181, 179, 179);
+    font-family:'Kanit', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    text-decoration:0.2px line-through;
+}
+#Resume #resume_distr{
+    position: relative;
+    top: 140px;
+}
+#Resume .left_resume{
+    padding-top: 0px;
+    width: 50%;
+    float: left;
+    margin-left: 30px;
+    border-right:2px solid  whitesmoke ;
+    
+}
+#Resume .resume_btn button{
+    color: white;
+    /* background-color: transparent; */
+    border-radius:2px solid rgb(16, 16, 22) ;
+    font-size: 24px;
+    border-radius: 25px;
+    border: none;
+    
+}
+
+#Resume #resume_intro_one li{
+    list-style: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+    font-family:'Kanit', sans-serif ;
+    padding: 10px 0px;
+}
+
+#Resume #resume_two{
+    padding: 40px 0px;
+}
+#Resume #resume_btn_tw button{
+    color: white;
+    
+    border-radius:2px solid rgb(16, 16, 22) ;
+    font-size: 24px;
+    border-radius: 25px;
+    border: none;
+
+}
+
+#Resume #resume_two_intro li{
+    list-style: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+    font-family:'Kanit', sans-serif ;
+    padding: 10px 0px;
+
+}
+#Resume #right_resume{
+    width: 30%;
+    float: left;
+    margin-left: 145px;
+}
+#Resume #resume_three_bt button{
+    color: white;
+    
+    border-radius:2px solid rgb(16, 16, 22) ;
+    font-size: 24px;
+    border-radius: 25px;
+    border: none;
+
+}
+#Resume #resume_three_intro li{
+    list-style: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+    font-family:'Kanit', sans-serif ;
+    padding: 10px 0px;
+}
+
+/* project section */
+
+#top #project{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    box-sizing: border-box;
+}
+#project #project_heading{
+    position: relative;
+    left: 125px;
+    top: 110px;
+    box-sizing: border-box;
+    margin-right:130px;
+}
+#project #project_heading h3{
+    color:rgb(181, 179, 179);
+    font-family:'Kanit', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    text-decoration:0.2px line-through;
+    
+}
+#project #project_row_one{
+    position: relative;
+    top:150px;
+    left: 400px;
+    width: 60%;
+    height: 70vh;
+    display: grid;
+    grid-template-rows: 500px;
+    grid-template-columns: 377px 377px;
+    grid-gap: 20px;
+    column-gap: 20px;
+    /* border: 2px solid white;  */
+    box-sizing: border-box;
+    
+}
+#project #project_row_one .item{
+    margin-left:25px ;
+    display: flex;
+    
+    margin-top: 15px;
+    border: 2px solid whitesmoke;
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: 350px 200px;
+    grid-gap: 60px;
+    column-gap: 20px;
+    
+    box-sizing: border-box;
+    /* border-bottom: 1px solid rgb(24, 24, 41) ; */
+
+}
+
+#project_row_one .item p{
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+    font-family:'Kanit', sans-serif ;
+}
+#project #project_row_one .item .item_img_one{
+    width: 99%;
+    /* border: 2px solid wheat; */
+    height: 350px;
+    
+   
+}
+#project .item .item_btn{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+#project .item .item_btn button{
+    color: wheat;
+    padding: 22px 20px; 
+    margin: 0px 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#project .item .item_btn button a{
+     padding: 10px 0px;
+    text-decoration: none;
+    /* font-family: 'Kanit', sans-serif; */
+    color: white;
+    
+    margin-bottom: 5px;
+    text-align: center;
+}
+#project .item .item_btn button:hover{
+    background-color: blueviolet;
+}
+
+
+/* Skill section */
+#top #skill{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    box-sizing: border-box;
+}
+#skill #skill_heading{
+    position: relative;
+    left: 125px;
+    top: 110px;
+    box-sizing: border-box;
+    margin-right:130px;
+}
+#skill #skill_heading h3{
+    color:rgb(181, 179, 179);
+    font-family:'Kanit', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    text-decoration:0.2px line-through;
+    
+}
+#skill #skill_row_one{
+    position: relative;
+    top: 110px;
+    left: 100px;
+    margin-right: 154px;
+    margin-left: 170px;
+    /* border: 2px solid wheat; */
+    height: 250px;
+    width: 60%;
+    margin: auto;
+    
+}
+#skill #skill_one{
+    width: 25%;
+    height: 240px;
+    float: left;
+    border:2px solid whitesmoke;
+}
+#skill #skill_two{
+    width: 25%;
+    height: 240px;
+    float: left;
+    border:2px solid whitesmoke;
+    margin: 0px 85px;
+    
+}
+#skill #skill_three{
+    width: 25%;
+    height: 240px;
+    float: left;
+    box-sizing: border-box;
+    border:2px solid whitesmoke;
+}
+
+#skill #skill_row_two{
+    position: relative;
+    top: 150px;
+    left: 100px;
+    width: 60%;
+    height: 250px;
+    /* border: 2px solid wheat; */
+    margin-left: 150px;
+    margin: auto;
+}
+#skill #skill_one_r2{
+    margin: auto;
+    width: 25%;
+    float: left;
+    height: 240px;
+    border:2px solid whitesmoke;
+
+}
+#skill #skill_two_r2{
+    margin: auto;
+    width: 25%;
+    float: left;
+    height: 240px;
+    border:2px solid whitesmoke;
+    margin: 0px 85px;
+
+}
+#skill #skill_three_r2{
+    margin: auto;
+    width: 25%;
+    float: left;
+    height: 240px;
+    border:2px solid whitesmoke;
+
+}
+#skill img{
+    width: 150px;
+    height: auto;
+    margin: 20px 30px;
+}
+#skill p{
+    color: whitesmoke;
+    font-family:'Kanit', sans-serif ;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+#skill .icon:hover{
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+/* certificate section */
+
+#top #cert_reward{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+#cert_reward #cert_heading{
+    position: relative;
+    left: 125px;
+    top: 110px;
+    box-sizing: border-box;
+    margin-right:130px;
+
+}
+#cert_reward #cert_heading h3{
+    color:rgb(181, 179, 179);
+    font-family:'Kanit', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    text-decoration:0.2px line-through;
+
+}
+#cert_reward #cert_reward_one{
+    position: relative;
+    top:150px;
+    left: 400px;
+    width: 70%;
+    height: 70vh;
+    
+    /* border: 2px solid wheat; */
+}
+#cert_reward #cert_reward_one{
+    display: grid;
+    grid-template-rows: 200px 200px 200px ;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 15px;
+    column-gap: 12px;
+    /* border: 2px solid white; */
+    box-sizing: border-box;
+}
+#cert_reward #cert_reward_one .item {
+    margin-top: 15px;
+    border: 1px solid whitesmoke;
+    border-bottom: 1px solid rgb(24, 24, 41) ;
+    
+    display: grid;
+    grid-gap: 0px;
+    column-gap: 12px;
+    grid-template-rows: 150px 50px ;
+    margin-left: 15px;
+    
+}
+#cert_reward #cert_reward_one .item .drive_img button a{
+   
+    color: white;
+    font-family:'Kanit', sans-serif ;
+    font-weight: 300;
+    text-decoration: none;
+    
+} 
+#cert_reward #cert_reward_one .item .drive_img button{
+    margin-left: 52px;
+    padding: 5px 25px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid wheat;
+}
+#cert_reward #cert_reward_one .item .drive_img button:hover{
+    background-color: rgb(188, 5, 161);
+}
+
+
+#cert_reward #cert_reward_one .item img{
+    margin-top: 20px;
+    border-radius:2.5px ;
+    width: 120px;
+    height: 120px;
+    margin-left: 32px;
+    
+}
+
+
+
+#top #work{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+#work #work_heading{
+    position: relative;
+    left: 125px;
+    top: 110px;
+    box-sizing: border-box;
+    margin-right:130px;
+
+}
+#work #work_heading h3{
+    color:rgb(181, 179, 179);
+    font-family:'Kanit', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    text-decoration:0.2px line-through;
+}
+#work #work_disc{
+    position: relative;
+    top:150px;
+    left: 250px;
+    width: 70%;
+    height: 70vh;
+    /* border: 2px solid wheat; */
+}
+#internship_one{
+    width: 49%;
+    float: left;
+}
+#internship_two{
+    width: 49%;
+    float: left;
+}
+#work #internship_one ul li{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    font-family:'Kanit', sans-serif ;
+    padding: 10px 0px;
+
+}
+#work #internship_two ul li{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    font-family:'Kanit', sans-serif ;
+    padding: 10px 0px;
+
+}
+
+/* contact section */
+#top #contact{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+#contact #contact_heading{
+    position: relative;
+    left: 125px;
+    top: 110px;
+    box-sizing: border-box;
+    margin-right:130px;
+
+}
+#contact #contact_heading h3{
+    color:rgb(181, 179, 179);
+    font-family:'Kanit', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    text-decoration:0.2px line-through;
+
+}
+#contact #contact_disc{
+    float: left;
+    width: 60%;
+    position: relative;
+    left: 125px;
+    height: 450px;
+    top: 150px;
+    /* border: 2px solid white; */
+    margin-left: 20px;
+}
+#contact #contact_disc input {
+    width: 60%;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: rgb(232, 232, 232);
+    border: 1.5px solid whitesmoke;
+    padding: 12px 20px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Kanit', sans-serif ;
+}
+#contact_disc .name{
+    width: 30%;
+}
+#contact_disc button{
+    margin-left: 10px;
+    /* background-color: rgb(244, 58, 225); */
+    color: white;
+    padding: 20px 10px;
+    font-family: 'Kanit', sans-serif ;
+    font-weight: 400;
+    border-radius: 10px;
+    border: 2px solid white;
+
+}
+#contact_disc button:hover{
+    background-color: rgb(168, 8, 183);
+    
+}
+#contact #address{
+    float: left;   
+    width: 35%;
+}
