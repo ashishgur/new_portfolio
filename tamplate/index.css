@@ -856,9 +856,10 @@ margin-top: 150px;
 
     #mobile #left_side{
     margin-top: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 175px;
     position: relative;
     left: 200px;
+    top: 150px;
     margin-right: 200px;
     width: 300px;
     min-height: 200px;
