@@ -42,7 +42,7 @@
 .intro {
     /* margin: 222px 120px; */
     font-family: 'Tektur', cursive;;
-    margin-left: 150px;
+    margin-left: 100px;
     padding-top: 15px;
     z-index: 10;
     margin-top: 243px;
@@ -67,7 +67,7 @@
     font-family: 'Fredoka One', cursive;
     color: white;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 80px;
 }
 .intro h2 span {
     font-style: bold;
